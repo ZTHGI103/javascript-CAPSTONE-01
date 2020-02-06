@@ -1,0 +1,107 @@
+body {
+  background-color: #4DE3E1;
+  font-weight: bold;
+}
+
+.btn {
+  font-family: verdana;
+  background-color: rgb(19, 129, 189);
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  border: none;
+  height: 28px;
+  width: 110px;
+  margin: 31px 0 0 14px;
+  cursor: pointer;
+}
+
+.country {
+  width: 203px;
+  height: 63px;
+  margin: 35px 0px 13px 25px;
+}
+
+.gender {
+  width: 203px;
+  height: 63px;
+  margin: 13px 0px 0px 25px;
+}
+
+.name_generator {
+  text-align: center;
+}
+
+#name_container {
+  display: block;
+  height: auto;
+  width: 598px;
+  border: 2px solid #D6E8E8;
+  float: right;
+  margin: -282px 913px 0 0;
+  font-size: 25px;
+  font-style: oblique;
+  background-color: white;
+  color: blue;
+  box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.302), 0 1px 3px 1px rgba(60, 64, 67, 0.149);
+  border-radius: 10px;
+  width: 450px;
+}
+
+#number_input {
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: black;
+  margin: 36px 0px 1px 25px;
+  padding: 5px 7px 2px 6px;
+  height: 32px;
+  font-size: 16px;
+  color: darkgreen;
+  font-weight: bold;
+  width: 150px;
+}
+
+#demo {
+  color: red;
+  font-size: 30px;
+}
+
+#generator {
+  align-items: center;
+}
+
+#show_names {
+  height: 200px;
+  width: 100%;
+  border: 1px solid black;
+  font-size: 30px;
+  font-weight: bold;
+  color: blue;
+}
+
+#submit_names {
+  display: none;
+}
+
+#enter_names {
+  font-size: 50px;
+}
+
+#names_input {
+  /* height: 100px;
+  width: 300px;
+  font-size: 50px; */
+  height: auto;
+  width: auto;
+  font-size: 25px;
+}
+
+#add_names {
+  height: 57px;
+  width: 112px;
+}
+
+#submit_names {
+  height: 57px;
+  width: 112px;
+}
