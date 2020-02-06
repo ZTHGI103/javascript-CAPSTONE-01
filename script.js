@@ -25,12 +25,14 @@ function Add() {
     else{
       names.push(name);
       if (names.length <=15) {
-        for (i = 0; i < names.length; i++) {
+        for (i = 0; i < names.length; i++)
+         {
           var x = "";
           x = x + names[i] + "<br>";
 
           document.getElementById("show_names").innerHTML = names;
           localStorage.setItem("names", JSON.stringify(names));
+
 
         }
       } else {
